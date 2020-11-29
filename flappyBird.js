@@ -29,13 +29,18 @@ var scor = new Audio();
 fly.src = "sounds/fly.mp3";  
 scor.src = "sounds/score.mp3";  
   
-document.addEventListener("keydown",moveUp);  
-  
+document.addEventListener("keydown",moveUp);   
+document.addEventListener("touchstart", tapOrClick);
+
 function moveUp(){  
     bY -= 25;  
     fly.play();  
 }  
-  
+function tapOrClick(){
+    bY -= 25;  
+    fly.play(); 
+}
+
 var pipe = [];  
   
 pipe[0] = {  
