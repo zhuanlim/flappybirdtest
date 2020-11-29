@@ -33,11 +33,11 @@ document.addEventListener("keydown",moveUp);
 document.addEventListener("touchend", tapOrClick);
 
 function moveUp(){  
-    bY -= 95;  
+    bY -= 55;  
     fly.play();  
 }  
 function tapOrClick(){
-    bY -= 95;  
+    bY -= 55;  
     fly.play(); 
 }
 
