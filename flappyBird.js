@@ -7,7 +7,8 @@ var fg = new Image();
 var pipeNorth = new Image();  
 var pipeSouth = new Image();  
   
-bird.src = "images/bird.png";  
+//bird.src = "images/bird.png"; 
+bird.src = "images/yx.png";  
 bg.src = "images/bg.png";  
 fg.src = "images/fg.png";  
 pipeNorth.src = "images/pipeNorth.png";  
