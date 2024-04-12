@@ -32,7 +32,8 @@ fly.src = "sounds/fly.mp3";
 scor.src = "sounds/score.mp3";  
   
 document.addEventListener("keydown",moveUp);   
-document.addEventListener("touchend", tapOrClick);
+document.addEventListener("touchstart", tapOrClick);
+//document.addEventListener("touchend", tapOrClick);
 
 function moveUp(){  
     bY -= 45;  
