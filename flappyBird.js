@@ -14,14 +14,14 @@ pipeNorth.src = "images/pipeNorth.png";
 pipeSouth.src = "images/pipeSouth.png";  
   
 //var gap = 85;  
-var gap = 45;
+var gap = 145;
 var constant;  
   
 var bX = 10;  
 var bY = 150;  
   
 //var gravity = 1.5;  
-var gravity = 1.1;  
+var gravity = 0.8;  
 
 var score = 0;  
   
