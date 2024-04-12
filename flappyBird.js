@@ -13,13 +13,14 @@ fg.src = "images/fg.png";
 pipeNorth.src = "images/pipeNorth.png";  
 pipeSouth.src = "images/pipeSouth.png";  
   
-var gap = 85;  
+//var gap = 85;  
+var gap = 125;
 var constant;  
   
-var bX = 20;  
-var bY = 300;  
+var bX = 10;  
+var bY = 150;  
   
-var gravity = 1.3;  
+var gravity = 1.5;  
   
 var score = 0;  
   
@@ -72,7 +73,7 @@ function draw(){
             location.reload();
         }  
           
-        if(pipe[i].x == 10){  
+        if(pipe[i].x == 5){  
             score++;  
             scor.play();  
         }  
